@@ -12,7 +12,7 @@ na saída. Caso o contrário, quando a distância for menor que 10, imprima
 
 Dica: lembre-se que a fórmula da distância para dois pontos num plano cartesiano é a seguinte:
 ![](img.png)
-​
+
 ### Exercício 2 - Desafio da videoaula
 
 Como pedido na videoaula desta semana, escreva um programa que calcula as raízes de uma equação do segundo grau.
