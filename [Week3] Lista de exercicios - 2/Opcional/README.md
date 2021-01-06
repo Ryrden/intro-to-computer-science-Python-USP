@@ -12,12 +12,12 @@ na saída. Caso o contrário, quando a distância for menor que 10, imprima
 
 Dica: lembre-se que a fórmula da distância para dois pontos num plano cartesiano é a seguinte:
 ![](img.png)
-​
+
 ### Exercício 2 - Desafio da videoaula
 
 Como pedido na videoaula desta semana, escreva um programa que calcula as raízes de uma equação do segundo grau.
 
-O programa deve receber os parâmetros a a a, b b b, e c c c da equação ax2+bx+c ax^2 + bx + c ax2+bx+c, respectivamente, e imprimir o resultado na saída da seguinte maneira:
+O programa deve receber os parâmetros a, b, e c da equação  ax^2 + bx + c, respectivamente, e imprimir o resultado na saída da seguinte maneira:
 
 Quando não houver raízes reais imprima:
 
@@ -37,6 +37,8 @@ onde X e Y são os valor das raízes.
 
 Além disso, ```no caso de existirem 2 raízes reais, elas devem ser impressas em ordem crescente.``` Exemplos:
 
-```as raízes da equação são 1.0 e 2.0```
+```
+as raízes da equação são 1.0 e 2.0
 
-```as raízes da equação são -2.0 e 0.0```
+as raízes da equação são -2.0 e 0.0
+```
