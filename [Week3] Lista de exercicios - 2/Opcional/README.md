@@ -37,9 +37,6 @@ onde X e Y são os valor das raízes.
 
 Além disso, ```no caso de existirem 2 raízes reais, elas devem ser impressas em ordem crescente.``` Exemplos:
 
-```
-as raízes da equação são 1.0 e 2.0
+```as raízes da equação são 1.0 e 2.0
 
-as raízes da equação são -2.0 e 0.0
-
-```
+as raízes da equação são -2.0 e 0.0```
