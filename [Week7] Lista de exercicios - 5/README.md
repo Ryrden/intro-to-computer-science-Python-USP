@@ -1,9 +1,47 @@
-### Exercício 1 - Removendo elementos repetidos
+### Exercício 1
 
-Escreva a função remove_repetidos que recebe como parâmetro uma lista com números inteiros, verifica se tal lista possui elementos repetidos e os remove. A função deve devolver uma lista correspondente à primeira lista, sem elementos repetidos. A lista devolvida deve estar ordenada.
+Escreva um programa que recebe como entradas (utilize a função input) dois números inteiros correspondentes à largura e à altura de um retângulo, respectivamente. O programa deve imprimir uma cadeia de caracteres que represente o retângulo informado com caracteres '#' na saída.
 
-Dica: Você pode usar ```lista.sort()``` ou ```sorted(lista)```. Qual a diferença?
+Por exemplo:
 
-### Exercício 2 - Soma dos elementos de uma lista
+```
+digite a largura: 10
+digite a altura: 3
+##########
+##########
+##########
 
-Escreva a função ```soma_elementos``` que recebe como parâmetro uma lista com números inteiros e devolve um número inteiro correspondente à soma dos elementos da lista recebida.
+```
+
+```
+digite a largura: 2
+digite a altura: 2
+##
+##
+
+```
+
+*Dica: lembre-se que a função print pode receber um parametro 'end', que altera o último caractere da cadeia, tornando possível a remoção da quebra de linha (reveja as vídeo-aulas)* 
+
+## Exercício 2
+
+Refaça o exercício 1 imprimindo os retângulos sem preenchimento, de forma que os caracteres que não estiverem na borda do retângulo sejam espaços.
+
+Por exemplo:
+
+```
+digite a largura: 10
+digite a altura: 3
+##########
+#        #
+##########
+
+```
+
+```
+digite a largura: 2
+digite a altura: 2
+##
+##
+
+```
