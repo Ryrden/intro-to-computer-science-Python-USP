@@ -4,10 +4,20 @@ Escreva a função ```n_primos``` que recebe como argumento um número inteiro m
 
 Exemplo:
 
+```ruby
+n_primos(2)
 ```
+deve devolver 1
 
-
+```ruby
+n_primos(4)
 ```
+deve devolver 2
+
+```ruby
+n_primos(121)
+```
+deve devolver 30
 
 ## Exercício 2 - (Difícil) Soma das hipotenusas
 
