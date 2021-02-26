@@ -7,7 +7,9 @@ Escreva um programa que recebe como entradas (utilize a função input) dois nú
 
 Exemplo:
 
-```lista = [2, 4, 2, 2, 3, 3, 1]```
+```
+lista = [2, 4, 2, 2, 3, 3, 1]
+```
 ```ruby
 remove_repetidos(lista)
 ```
