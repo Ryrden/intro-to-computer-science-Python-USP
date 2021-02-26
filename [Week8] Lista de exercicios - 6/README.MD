@@ -1,4 +1,4 @@
-### Exercício 1 - Removendo elementos repetidos
+## Exercício 1 - Removendo elementos repetidos
 
 Escreva a função ```remove_repetidos``` que recebe como parâmetro uma ```lista``` com números inteiros, verifica se tal lista possui elementos repetidos e os remove. A função deve devolver uma ```lista``` correspondente à primeira lista, sem elementos repetidos. A lista devolvida deve estar ```ordenada```.
 Escreva um programa que recebe como entradas (utilize a função input) dois números inteiros correspondentes à largura e à altura de um retângulo, respectivamente. O programa deve imprimir uma cadeia de caracteres que represente o retângulo informado com caracteres '#' na saída.
@@ -20,6 +20,6 @@ remove_repetidos([1, 2, 3, 3, 3, 4])
 ```
 deve devolver [1, 2, 3, 4]
 
-### Exercício 2 - Soma dos elementos de uma lista
+## Exercício 2 - Soma dos elementos de uma lista
 
 Escreva a função ```soma_elementos``` que recebe como parâmetro uma ```lista``` com números inteiros e devolve um número inteiro correspondente à soma dos elementos da lista recebida.
