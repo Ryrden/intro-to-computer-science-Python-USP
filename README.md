@@ -11,4 +11,4 @@ Essa pasta possui somente a Parte 1 do Curso, contendo os assuntos:
     -Listas
     -Manipulação de Listas
  
- Durante o Curso foi criado 2 programas completos, sendo um deles o "JOGO DO NIM" e o projeto final: "Detector de plágios"
+ Durante o Curso foram criados 2 programas completos, sendo um deles o "JOGO DO NIM" e o projeto final: "Detector de plágios"
