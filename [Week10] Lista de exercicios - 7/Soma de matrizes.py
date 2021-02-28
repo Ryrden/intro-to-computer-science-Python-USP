@@ -6,9 +6,9 @@ def soma_matrizes(m1, m2):
             lista_final = []
             lista_transporte = [] 
 
-            for i in range(len(m1)): 
+            for i in range(len(m1)): #percorrendo linha
 
-                for j in range(0, (len(m1[i]))):
+                for j in range(0, (len(m1[i]))): #percorrendo coluna 
                     aux = 0                      #variável auxiliar para adicionar valores para lista_transporte
                     aux = m1[i][j] + m2[i][j] 
                     lista_transporte.append(aux)
