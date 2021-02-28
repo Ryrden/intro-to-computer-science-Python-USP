@@ -6,4 +6,4 @@ def dimensoes(matriz):
     for i in matriz[0]:  # Quantas colunas tem
         colunas += 1
 
-    return print(linhas, 'X', colunas, sep='') 
+    print(linhas, 'X', colunas, sep='')

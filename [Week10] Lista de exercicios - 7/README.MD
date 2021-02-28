@@ -10,7 +10,7 @@ minha_matriz = [[1], [2], [3]]
 ```ruby
 dimensoes(minha_matriz)
 ``` 
-deve devolver 3X1
+deve imprimir 3X1
 
 ```
 minha_matriz = [[1, 2, 3], [4, 5, 6]]
@@ -18,7 +18,7 @@ minha_matriz = [[1, 2, 3], [4, 5, 6]]
 ```ruby
 dimensoes(minha_matriz)
 ```
-deve devolver 2X3
+deve imprimir 2X3
 
 ## Exercício 2: Soma de matrizes
 
