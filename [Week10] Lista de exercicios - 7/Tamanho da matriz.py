@@ -3,7 +3,7 @@ def dimensoes(matriz):
 
     linhas = len(matriz)  # Quantas linhas tem
 
-    for i in [x[0] for x in matriz]:  # Quantas colunas tem
+    for i in matriz[0]:  # Quantas colunas tem
         colunas += 1
 
-    return print(linhas, 'X', colunas, sep='')
+    return print(linhas, 'X', colunas, sep='') 
