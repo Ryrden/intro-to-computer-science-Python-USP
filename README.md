@@ -1,14 +1,19 @@
 # Python-USP
  Curso de introdução a computação oferecido pela USP, que aborda o uso da linguagem Python.
 
-Essa pasta possui somente a Parte 1 do Curso, contendo os assuntos:
+Esse repositório possui a **Parte 1 completa** do Curso e a **Parte 2 está em processo**.
+Os assuntos aprendidos até o momento foram:
 
     -Sintaxe
     -Condicionais - if...else
     -Repetições - while, for
     -Funções
-    -Repetições Encaixadas - Double While;
-    -Listas
-    -Manipulação de Listas
+    -Depuração e refatoração
+    -Testes automatizados
+    -Repetições Encaixadas
+    -Listas e Manipulação de listas
+    -Matrizes e Manipulação de Matrizes
+    -Strings (Comparações e Manipulação)
+    -Módulos em Python
  
- Durante o Curso foram criados 2 programas completos, sendo um deles o "JOGO DO NIM" e o projeto final: "Detector de plágios"
+ Durante o Curso foram criados 2 programas completos, sendo um deles o ```"JOGO DO NIM"``` e o projeto final da Parte 1: ```"Detector de plágios"```
