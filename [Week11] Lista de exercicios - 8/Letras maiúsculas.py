@@ -25,3 +25,4 @@ def Testa_M(): # Testando a Função
 
     if maiusculas('PrOgRaMaMoS em python!') == 'PORMMS':
         print("ok3")
+
