@@ -1,5 +1,6 @@
 def conta_vogais(frase):  # conta quantos vogais maiúsculas e minúsculas tem na frase
 
+    Numero_vogais = 0
     vogais_min = ['a', 'e', 'i', 'o', 'u']
     vogais_mai = ['A', 'E', 'I', 'O', 'U']
 
@@ -12,6 +13,7 @@ def conta_vogais(frase):  # conta quantos vogais maiúsculas e minúsculas tem n
         Numero_vogais = Numero_vogais + frase.count(i)
 
     return Numero_vogais
+
 
 def conta_letras(frase, contar='vogais'):
 
