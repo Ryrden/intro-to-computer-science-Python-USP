@@ -1,6 +1,6 @@
 def cria_matriz(num_linhas, num_colunas, valor):
 
-    matriz = []  # lista vazia
+    Matriz = []  # lista vazia
     for i in range(num_linhas):
         # cria a linha i
         linha = [] #lista vazia
@@ -8,6 +8,6 @@ def cria_matriz(num_linhas, num_colunas, valor):
             linha.append(valor)
 
         # adiciona linha à matriz
-        matriz.append(linha)
+        Matriz.append(linha)
 
-    return matriz
+    return Matriz
