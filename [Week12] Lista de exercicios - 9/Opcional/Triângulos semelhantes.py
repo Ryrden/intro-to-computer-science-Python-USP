@@ -34,5 +34,19 @@ class Triangulo:
 
     def semelhantes(self, triangulo):
         
-        
-        return None
+        a1, b1, c1 = self.a, self.b, self.c 
+
+        a2, b2, c2 = triangulo.a, triangulo.b, triangulo.c
+
+        constante = a2 / a1
+
+        if b2/b1 == constante and c2/c1 == constante:
+            return True
+        else:
+            return False 
+
+if __name__ == "__main__":
+    t1 = Triangulo(2, 2, 2)
+    t2 = Triangulo(4, 4, 4)
+    print(t1.semelhantes(t2))
+
