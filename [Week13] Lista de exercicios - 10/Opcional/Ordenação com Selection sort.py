@@ -1,5 +1,5 @@
 def ordena(lista):
-    
+
     Endlist = len(lista)
 
     for i in range(Endlist-1):
@@ -14,9 +14,10 @@ def ordena(lista):
 
     return lista
 
+
 # Verificação
 if __name__ == "__main__":
-    
+
     import Listas_grandes
 
     lista = Listas_grandes.lista_grande(10)
@@ -24,4 +25,4 @@ if __name__ == "__main__":
     print(
         f"Antes de ser Ordenada \t-> {lista}\n\n"
         f"Depois de ser Ordenada \t-> {ordena(lista)}"
-        )
+    )
