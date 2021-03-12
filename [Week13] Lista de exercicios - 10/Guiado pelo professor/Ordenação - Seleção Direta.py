@@ -1,5 +1,6 @@
 class Ordenador:
-    def selecao_direta(self, lista):
+
+    def selecao_direta (self, lista):
 
         fim = len(lista)
 
@@ -14,4 +15,3 @@ class Ordenador:
             # Coloca o menor elemento encontrado no início da sub-lista
             # Para isso, troca de lugar os elementos nas posições i e posicao_do_minimo
             lista[i], lista[posicao_do_minimo] = lista[posicao_do_minimo], lista[i]
-        return None
