@@ -18,9 +18,21 @@ def ordena(lista):
 # Verificação
 if __name__ == "__main__":
 
-    import Listas_grandes
+    # Trouxe a função pelo fato de quanto se importa em módulo, aparece outros dois arquivos gerados automaticamente
+    def lista_grande(n):
 
-    lista = Listas_grandes.lista_grande(10)
+        import random
+
+        lista = []
+
+        for i in range(n):
+            numero_aleatorio = random.randint(1, 100)
+
+            lista.append(numero_aleatorio)
+
+        return lista
+
+    lista = lista_grande(10)
 
     print(
         f"Antes de ser Ordenada \t-> {lista}\n\n"
