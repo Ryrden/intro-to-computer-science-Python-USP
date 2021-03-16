@@ -8,8 +8,8 @@ def bubble_sort(lista):
         for j in range(i):
             if lista[j] > lista[j+1]:
                 lista[j], lista[j+1] = lista[j+1], lista[j]
-                print(lista)
                 trocou = True
+                print(lista)
         if trocou == False:
             return lista
 
