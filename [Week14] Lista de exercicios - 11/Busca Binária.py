@@ -1,3 +1,5 @@
+# Código feito de outra maneira mas está funcionando perfeitamente, isso é ótimo!
+
 def busca(lista_ord, elemento_procurado):
     primeiro = 0
     ultimo = len(lista_ord) - 1
@@ -5,7 +7,6 @@ def busca(lista_ord, elemento_procurado):
     while primeiro <= ultimo:
         meio = (primeiro + ultimo) // 2
         elemento = lista_ord[meio]
-        print(elemento)
 
         if elemento < elemento_procurado:
             primeiro = meio + 1
@@ -18,6 +19,3 @@ def busca(lista_ord, elemento_procurado):
 
     return False
 
-busca([1,2,3,4,5,6], 4)
-
-print(busca)
