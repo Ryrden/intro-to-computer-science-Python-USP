@@ -1,18 +1,18 @@
 class Buscador:
     
-    def busca_binaria(self, lista, x):
+    def busca_binaria(self, lista, procurado):
         primeiro = 0 
         ultimo = len(lista)-1
 
         while primeiro <= ultimo:
             meio = (primeiro + ultimo ) // 2
 
-            if lista[meio] == x:
+            if lista[meio] == procurado:
                 return meio
-            elif x < lista[meio]:
+            elif procurado < lista[meio]:
                 ultimo = meio - 1
             else:
-                primeio = meio + 1
+                primeiro = meio + 1
         
         return -1
     
